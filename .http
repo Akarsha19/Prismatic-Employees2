@@ -6,3 +6,6 @@ GET {{host}}/employees
 
 ### GET all employees
 GET {{host}}/employees/5
+
+### GET message
+GET {{host}}/

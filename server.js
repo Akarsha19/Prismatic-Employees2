@@ -13,6 +13,10 @@ app.use((req, res, next) => {
 
 const employees = require("./data/employees");
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the Prismatic Employees API.");
+});
+
 router.get("/", async (req, res, next) => {
   try {
     const books = await prisma.book.findMany();
