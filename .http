@@ -1,0 +1,8 @@
+@port=3000
+@host=http://localhost:{{port}}
+
+### GET all employees
+GET {{host}}/employees
+
+### GET all employees
+GET {{host}}/employees/5
